@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
 """
-Written by DEVANSH SONI
-I've mainly used Pytube and Tkinter to develop this application.
 For any suggestions:
     Please contact: dsoni01@outlook.com
 """
