@@ -1,11 +1,11 @@
 ## YouTube Video Downloader
-This is a GUI to Download Youtube videos directly on your device. It uses [pytube]() to get the details of the video and download them directly.
+This is a GUI to Download Youtube videos directly on your device. It uses [pytube](https://pypi.org/project/pytube/) to get the details of the video and download them directly.
 
 ## Requirements
 - Python3 (or above)
 - [tkinter](https://docs.python.org/3/library/tk.html)
-- [pytube]()
-- [PIL]()
+- [pytube](https://pypi.org/project/pytube/)
+- [PIL](https://pypi.org/project/Pillow/)
 
 ## How to use
 With all the requirements fulfilled, you just need to run the script:
