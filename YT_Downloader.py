@@ -1,10 +1,5 @@
 #!/usr/bin/python3
 
-"""
-For any suggestions:
-    Please contact: dsoni01@outlook.com
-"""
-
 import tkinter as tk
 import tkinter.ttk as ttk
 import urllib
@@ -19,13 +14,12 @@ root = tk.Tk()
 root.geometry("450x190+700+300")
 root.resizable(0, 0)
 root.title("YT Downloader")
+root.configure(bg="#141414")
 
 # try:
 #     root.tk.call('wm', 'iconphoto', root._w, ImageTk.PhotoImage(file='ic.ico'))
 # except FileNotFoundError:
 #     pass
-
-root.configure(bg="#141414")
 
 tk.Label(root, text="- Dsoni01", pady=5, padx=5, fg="#414141", bg="#141414").place(relx=1.0, rely=1.0, x=0, y=0, anchor="se")
 
@@ -156,7 +150,6 @@ fr2.pack(pady=5)
 tk.Button(fr2, text='Details', fg="#ffffff", bg="#001010", padx=15, pady=3, font=10, borderwidth=2, command=show_info).pack(padx=10)
 
 root.mainloop()
-
 
 if __name__ != '__main__':
     pass
