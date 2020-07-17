@@ -20,10 +20,10 @@ root.geometry("450x190+700+300")
 root.resizable(0, 0)
 root.title("YT Downloader")
 
-try:
-    root.tk.call('wm', 'iconphoto', root._w, ImageTk.PhotoImage(file='ic.ico'))
-except FileNotFoundError:
-    pass
+# try:
+#     root.tk.call('wm', 'iconphoto', root._w, ImageTk.PhotoImage(file='ic.ico'))
+# except FileNotFoundError:
+#     pass
 
 root.configure(bg="#141414")
 
